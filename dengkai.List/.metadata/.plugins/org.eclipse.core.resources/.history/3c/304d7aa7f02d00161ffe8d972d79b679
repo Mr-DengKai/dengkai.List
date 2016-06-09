@@ -1,0 +1,34 @@
+package com.orilore.set;
+
+import java.util.*;
+
+class students {
+	private String name;
+	private String number;
+
+	students(String name, String number) {
+		this.name = name;
+		this.nember = number;
+
+	}
+
+	@Override
+	public String toString() {
+		return String.format("(%s,%S)",name, number);
+	}
+	
+}
+public class student{
+	public student(String string, String string2) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args){
+		Set student = new HashSet();
+		student.add(new student("dengkai","121304011239"));
+		student.add(new student("chou jay","121304011240"));
+		student.add(new student("dengkai","121304011239"));
+		
+		System.out.println(student);
+	}
+}

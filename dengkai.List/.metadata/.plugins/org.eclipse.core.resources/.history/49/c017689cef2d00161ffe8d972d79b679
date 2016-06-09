@@ -1,0 +1,21 @@
+package com.orilore.set;
+
+import java.util.*;
+
+class students {
+	private String name;
+	private String nember;
+
+	students(String name, String number) {
+		this.name = name;
+		this.nember = number;
+
+	}
+
+	@Override
+	public String toString() {
+		return "students [name=" + name + ", nember=" + nember + "]";
+	}
+	
+}
+public class student{}

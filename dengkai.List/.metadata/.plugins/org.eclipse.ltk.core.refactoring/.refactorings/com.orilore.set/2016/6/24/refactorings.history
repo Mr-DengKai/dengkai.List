@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;add&apos; from expression &apos;student.add(new student(&quot;dengkai&quot;,&quot;121304011239&quot;))&apos;&#x0D;&#x0A;- Original project: &apos;com.orilore.set&apos;&#x0D;&#x0A;- Variable name: &apos;add&apos;&#x0D;&#x0A;- Destination method: &apos;com.orilore.set.student.main()&apos;&#x0D;&#x0A;- Variable expression: &apos;student.add(new student(&quot;dengkai&quot;,&quot;121304011239&quot;))&apos;" description="Extract local variable &apos;add&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.orilore.set{student.java" name="add" replace="false" selection="639 50" stamp="1465441940386" version="1.0"/>
+</session>
